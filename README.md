@@ -1,38 +1,33 @@
 # AI-Powered-System
-# Auto-Complete System
+# AI-Powered Auto-Complete System
 
-## Overview
-This project implements an auto-complete system in Java using two different approaches:
+## Project Overview
+
+This project is an auto-complete system developed for CCS 270 – Data Structures and Algorithms.
+
+The system suggests words based on the prefix entered by the user. It was implemented using two approaches:
 
 - Trie
-- Linear Search (ArrayList)
 
-The project compares both implementations in terms of insertion time and suggestion search performance using the Google 10,000 English Words dataset.
+- Linear Search using ArrayList
 
-## Features
-- Prefix-based word suggestions
-- Trie implementation
-- Linear Search implementation
-- Suggestion ranking based on:
-  - Selection frequency
-  - Last-used time
-  - Dataset rank
-- Performance comparison between both methods
-
-## Technologies
-- Java
-- IntelliJ IDEA
-
-## Dataset
-Google 10,000 English Words
-
-## How to Run
-1. Open the project in IntelliJ IDEA.
-2. Make sure `google-10000-english.txt` is in the project directory.
-3. Run `Main.java`.
-4. Choose the search method (Trie or Linear Search).
-5. Enter a prefix to view suggestions.
+Both methods use the same dataset and rank suggestions based on frequency, recency, and dataset order.
 
 ## Team Members
--Raghad Abdullah
--Amna Saleem
+
+- Amna Yousf Saleem — 2241100892
+
+- Raghad Abdullah — 2231167295
+
+## Main Features
+
+- Loads 10,000 English words
+
+- Supports Trie and Linear Search
+
+- Displays up to five suggestions
+
+- Updates word priority after user selection
+
+- Compares insertion and search performance
+ 
