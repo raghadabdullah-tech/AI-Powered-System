@@ -34,6 +34,5 @@ Google 10,000 English Words
 5. Enter a prefix to view suggestions.
 
 ## Team Members
-- Raghad Abdullah
-- Amna Saleem
-- (اسم زميلتك)
+Raghad Abdullah
+Amna Saleem
